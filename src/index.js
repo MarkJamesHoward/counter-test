@@ -41,7 +41,7 @@ export class MyCounter extends LitElement {
 
   render() {
     return html`
-      <h1>Tested by A ShotOfCode</h1>
+      <h1>Tested by A ShotOfCode2</h1>
       <button @click="${this.dec}">-</button>
       <span>${this.count}</span>
       <button @click="${this.inc}">+</button>
